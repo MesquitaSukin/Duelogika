@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Duelógika</title>
+  <link rel="stylesheet" href="home.css"> <!-- Link para o CSS -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+<div class="container">
+    <h1>Hora das perguntas!</h1>
+    <p>Escolha sua profissão e tente acertar as perguntas</p>
+    <div class="profissoes">
+      <button onclick="iniciarQuiz('cientista')">Cientista</button>
+      <button onclick="iniciarQuiz('professor')">Professor</button>
+      <button onclick="iniciarQuiz('engenheiro')">Engenheiro</button>
+      <button onclick="iniciarQuiz('medico')">Médico</button>
+      <button onclick="iniciarQuiz('biologo')">Biólogo</button>
+      <button onclick="iniciarQuiz('programador')">Programador</button>
+      <button onclick="iniciarQuiz('historiador')">Historiador</button>
+      <button onclick="iniciarQuiz('arquiteto')">Arquiteto</button> 
+    </div>
+</div>
+
+  <div class="quiz">
+    <h2 id="pergunta"></h2>
+    <div class="opcoes" id="opcoes"></div>
+    <p class="resultado" id="resultado"></p>
+  </div>
+
+  <div class="descricao">
+    <img src="gato-falando.png" alt="">
+    <div class="texto">
+      <p>O Desafio das Profissões é um jogo educativo criado por alunos do 3º ano do Ensino Médio da Escola SAFA. Ele combina diversão e aprendizado, colocando os jogadores para enfrentar perguntas de diferentes áreas do conhecimento — como Matemática, Ciências, História, Artes e muito mais.</p>
+      <p>Cada profissão tem habilidades únicas e precisa usar estratégia e conhecimento para vencer. O objetivo é sobreviver até o final, respondendo perguntas e enfrentando os desafios do jogo.</p>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2024 Duelógika. Todos os direitos reservados.</p>
+    <p>Desenvolvido por Alunos do 3º ano do Ensino Médio da escola SAFA</p>
+  </footer>
+
+  <script src="script.js"></script> <!-- Link para o JavaScript -->
+
+</body>
+</html>

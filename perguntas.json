@@ -1,0 +1,648 @@
+{
+  "matematica": {
+    "facil": [
+      {
+        "pergunta": "Resolva: 15 x 4",
+        "opcoes": ["45", "50", "55", "60"],
+        "resposta": "60"
+      },
+      {
+        "pergunta": "Qual é o valor de x em 2x = 10?",
+        "opcoes": ["2", "4", "5", "10"],
+        "resposta": "5"
+      },
+      {
+        "pergunta": "Qual é a fração equivalente a 0,5?",
+        "opcoes": ["1/2", "1/3", "2/3", "3/4"],
+        "resposta": "1/2"
+      }
+    ],
+    "medio": [
+      {
+        "pergunta": "Resolva a equação: 3x - 7 = 11",
+        "opcoes": ["4", "5", "6", "7"],
+        "resposta": "6"
+      },
+      {
+        "pergunta": "Qual é a soma dos ângulos internos de um hexágono?",
+        "opcoes": ["540°", "720°", "900°", "1080°"],
+        "resposta": "720°"
+      },
+      {
+        "pergunta": "Uma loja deu 20% de desconto em um produto de R$ 150,00. Qual o preço final?",
+        "opcoes": ["R$ 110,00", "R$ 115,00", "R$ 120,00", "R$ 125,00"],
+        "resposta": "R$ 120,00"
+      }
+    ],
+    "dificil": [
+      {
+        "pergunta": "Resolva a equação do 2º grau: x² - 5x + 6 = 0",
+        "opcoes": ["x = 2 ou x = 3", "x = 1 ou x = 6", "x = -2 ou x = -3", "x = 0 ou x = 6"],
+        "resposta": "x = 2 ou x = 3"
+      },
+      {
+        "pergunta": "A função f(x) = 2x + 1 tem f(5) igual a:",
+        "opcoes": ["9", "10", "11", "12"],
+        "resposta": "11"
+      },
+      {
+        "pergunta": "Um cilindro tem raio 3 cm e altura 10 cm. Qual é seu volume? (use π ≈ 3,14)",
+        "opcoes": ["282,6 cm³", "282,6 cm²", "94,2 cm³", "94,2 cm²"],
+        "resposta": "282,6 cm³"
+      }
+    ]
+  },
+
+  "logica": {
+  "facil": [
+    {
+      "pergunta": "Qual é o próximo número da sequência: 2, 4, 6, 8, ...?",
+      "opcoes": ["9", "10", "12", "14"],
+      "resposta": "10"
+    }
+  ],
+  "medio": [
+    {
+      "pergunta": "Se hoje é terça-feira, que dia será 10 dias depois?",
+      "opcoes": ["Quinta-feira", "Sábado", "Domingo", "Segunda-feira"],
+      "resposta": "quinta-feira"
+    },
+    {
+      "pergunta": "Se a proposição 'Se chove, então a rua fica molhada' é verdadeira, o que podemos afirmar se a rua está seca?",
+      "opcoes": [
+        "Está chovendo", 
+        "Não está chovendo", 
+        "Não podemos afirmar", 
+        "A rua fica molhada"
+      ],
+      "resposta": "Não está chovendo"
+    }
+  ],
+  "dificil": [
+    {
+      "pergunta": "Em uma sequência, cada número é o dobro do anterior menos 1: 1, 1, 3, 5, ... Qual é o próximo número?",
+      "opcoes": ["7", "9", "11", "13"],
+      "resposta": "9"
+    },
+    {
+      "pergunta": "Em um concurso, A é mais velho que B, C é mais jovem que D, e B é mais velho que C. Quem é o mais jovem?",
+      "opcoes": ["A", "B", "C", "D"],
+      "resposta": "C"
+    }
+  ]
+},
+
+  "portugues": {
+  "facil": [
+    {
+      "pergunta": "Qual é o sujeito da frase: 'Os alunos estudam para a prova.'?",
+      "opcoes": ["Os alunos", "Estudam", "Para a prova", "A prova"],
+      "resposta": "Os alunos"
+    },
+    {
+      "pergunta": "Qual palavra está escrita corretamente?",
+      "opcoes": ["Excessão", "Exceção", "Eceção", "Exceçâo"],
+      "resposta": "Exceção"
+    },
+    {
+      "pergunta": "Qual é a classe gramatical da palavra 'feliz'?",
+      "opcoes": ["Substantivo", "Adjetivo", "Verbo", "Advérbio"],
+      "resposta": "Adjetivo"
+    }
+  ],
+  "medio": [
+    {
+      "pergunta": "Qual é a figura de linguagem na frase: 'A cidade nunca dorme'?",
+      "opcoes": ["Metáfora", "Personificação", "Hipérbole", "Ironia"],
+      "resposta": "Personificação"
+    },
+    {
+      "pergunta": "Identifique a oração subordinada em: 'Estudei porque queria passar de ano.'",
+      "opcoes": ["Estudei", "Porque queria passar de ano", "Queria passar de ano", "De ano"],
+      "resposta": "Porque queria passar de ano"
+    },
+    {
+      "pergunta": "Qual alternativa apresenta um verbo no futuro do presente?",
+      "opcoes": ["Estudarei", "Estudei", "Estudava", "Estudo"],
+      "resposta": "Estudarei"
+    }
+  ],
+  "dificil": [
+    {
+      "pergunta": "Qual é o tipo de sujeito em: 'Choveu muito ontem.'?",
+      "opcoes": ["Simples", "Composto", "Oculto", "Inexistente"],
+      "resposta": "Inexistente"
+    },
+    {
+      "pergunta": "Na frase 'O aluno a quem me referi chegou atrasado', qual é a função do termo 'a quem'?",
+      "opcoes": ["Sujeito", "Objeto direto", "Objeto indireto", "Adjunto adverbial"],
+      "resposta": "Objeto indireto"
+    },
+    {
+      "pergunta": "Assinale a alternativa em que a vírgula está empregada CORRETAMENTE:",
+      "opcoes": [
+        "Pedro, gosta de estudar matemática.",
+        "Se chover, ficaremos em casa.",
+        "Os livros que comprei, são caros.",
+        "Maria, e João viajaram."
+      ],
+      "resposta": "Se chover, ficaremos em casa."
+    }
+  ]
+},
+
+"quimica": {
+  "facil": [
+    {
+      "pergunta": "Qual é o símbolo químico do oxigênio?",
+      "opcoes": ["O", "Ox", "Oxg", "O2"],
+      "resposta": "O"
+    },
+    {
+      "pergunta": "Qual substância é formada por átomos de apenas um elemento?",
+      "opcoes": ["Composto", "Mistura", "Elemento", "Solução"],
+      "resposta": "Elemento"
+    },
+    {
+      "pergunta": "A água é um exemplo de:",
+      "opcoes": ["Elemento", "Composto", "Mistura homogênea", "Mistura heterogênea"],
+      "resposta": "Composto"
+    }
+  ],
+  "medio": [
+    {
+      "pergunta": "Qual é a fórmula química do dióxido de carbono?",
+      "opcoes": ["CO", "CO2", "C2O", "O2C"],
+      "resposta": "CO2"
+    },
+    {
+      "pergunta": "Qual tipo de ligação química ocorre entre átomos que compartilham elétrons?",
+      "opcoes": ["Iônica", "Covalente", "Metálica", "Van der Waals"],
+      "resposta": "Covalente"
+    },
+    {
+      "pergunta": "O sal de cozinha é formado por:",
+      "opcoes": ["NaCl", "H2O", "CO2", "CH4"],
+      "resposta": "NaCl"
+    }
+  ],
+  "dificil": [
+    {
+      "pergunta": "Qual é a massa molar da água (H2O)? (H = 1 g/mol, O = 16 g/mol)",
+      "opcoes": ["16 g/mol", "17 g/mol", "18 g/mol", "19 g/mol"],
+      "resposta": "18 g/mol"
+    },
+    {
+      "pergunta": "Na reação: 2H2 + O2 → 2H2O, quantas moléculas de água são formadas a partir de 2 moléculas de O2?",
+      "opcoes": ["2", "4", "6", "8"],
+      "resposta": "4"
+    },
+    {
+      "pergunta": "Qual é o pH de uma solução neutra à temperatura ambiente?",
+      "opcoes": ["0", "7", "14", "1"],
+      "resposta": "7"
+    }
+  ]
+},
+
+"fisica": {
+  "facil": [
+    {
+      "pergunta": "Qual é a unidade de medida da velocidade no SI?",
+      "opcoes": ["m/s", "km", "N", "kg"],
+      "resposta": "m/s"
+    },
+    {
+      "pergunta": "Se um objeto está parado, sua velocidade é:",
+      "opcoes": ["0 m/s", "1 m/s", "10 m/s", "Indefinida"],
+      "resposta": "0 m/s"
+    },
+    {
+      "pergunta": "Qual instrumento mede a massa de um corpo?",
+      "opcoes": ["Balança", "Termômetro", "Barômetro", "Voltímetro"],
+      "resposta": "Balança"
+    }
+  ],
+  "medio": [
+    {
+      "pergunta": "Um carro percorre 120 km em 2 horas. Qual é sua velocidade média?",
+      "opcoes": ["40 km/h", "50 km/h", "60 km/h", "70 km/h"],
+      "resposta": "60 km/h"
+    },
+    {
+      "pergunta": "A aceleração da gravidade na Terra é aproximadamente:",
+      "opcoes": ["9,8 m/s²", "10 m/s", "9,8 km/h²", "9,8 N"],
+      "resposta": "9,8 m/s²"
+    },
+    {
+      "pergunta": "Qual é a fórmula da força segundo Newton?",
+      "opcoes": ["F = m × a", "F = m / a", "F = a / m", "F = m + a"],
+      "resposta": "F = m × a"
+    }
+  ],
+  "dificil": [
+    {
+      "pergunta": "Um objeto de 5 kg é acelerado a 2 m/s². Qual é a força aplicada?",
+      "opcoes": ["5 N", "7 N", "10 N", "12 N"],
+      "resposta": "10 N"
+    },
+    {
+      "pergunta": "Um projétil é lançado verticalmente com velocidade de 20 m/s. Qual será sua altura máxima? (g = 10 m/s²)",
+      "opcoes": ["20 m", "10 m", "40 m", "30 m"],
+      "resposta": "20 m"
+    },
+    {
+      "pergunta": "Qual é a energia cinética de um corpo de 2 kg que se move a 3 m/s?",
+      "opcoes": ["6 J", "9 J", "12 J", "18 J"],
+      "resposta": "9 J"
+    }
+  ]
+},
+
+"biologia": {
+  "facil": [
+    {
+      "pergunta": "Qual é a unidade básica da vida?",
+      "opcoes": ["Átomo", "Célula", "Molécula", "Órgão"],
+      "resposta": "Célula"
+    },
+    {
+      "pergunta": "Qual destes é um ser vivo autotrófico?",
+      "opcoes": ["Ser humano", "Cachorro", "Planta", "Fungo"],
+      "resposta": "Planta"
+    },
+    {
+      "pergunta": "Onde ocorre a fotossíntese nas plantas?",
+      "opcoes": ["Raiz", "Caule", "Folha", "Flor"],
+      "resposta": "Folha"
+    }
+  ],
+  "medio": [
+    {
+      "pergunta": "Qual organela é responsável pela produção de energia na célula?",
+      "opcoes": ["Núcleo", "Mitocôndria", "Ribossomo", "Lisossomo"],
+      "resposta": "Mitocôndria"
+    },
+    {
+      "pergunta": "Qual é a molécula que carrega a informação genética?",
+      "opcoes": ["RNA", "DNA", "Proteína", "Lipídio"],
+      "resposta": "DNA"
+    },
+    {
+      "pergunta": "Os fungos são classificados como:",
+      "opcoes": ["Autotróficos", "Heterotróficos", "Fotossintéticos", "Procariontes"],
+      "resposta": "Heterotróficos"
+    }
+  ],
+  "dificil": [
+    {
+      "pergunta": "Qual é a sequência correta da organização biológica do menor para o maior nível?",
+      "opcoes": ["Célula → Tecidos → Órgãos → Sistema → Organismo", "Célula → Órgão → Tecido → Sistema → Organismo", "Tecido → Célula → Órgão → Sistema → Organismo", "Célula → Órgão → Sistema → Tecido → Organismo"],
+      "resposta": "Célula → Tecidos → Órgãos → Sistema → Organismo"
+    },
+    {
+      "pergunta": "Qual tipo de reprodução gera indivíduos geneticamente idênticos?",
+      "opcoes": ["Sexuada", "Assexuada", "Meiose", "Fecundação"],
+      "resposta": "Assexuada"
+    },
+    {
+      "pergunta": "Qual é a função dos ribossomos?",
+      "opcoes": ["Produção de proteínas", "Produção de energia", "Armazenamento de água", "Digestão celular"],
+      "resposta": "Produção de proteínas"
+    }
+  ]
+},
+
+"ciencias": {
+  "facil": [
+    {
+      "pergunta": "Qual é o planeta mais próximo do Sol?",
+      "opcoes": ["Terra", "Marte", "Mercúrio", "Vênus"],
+      "resposta": "Mercúrio"
+    },
+    {
+      "pergunta": "Qual fenômeno transforma água em vapor?",
+      "opcoes": ["Condensação", "Evaporação", "Precipitação", "Sublimação"],
+      "resposta": "Evaporação"
+    },
+    {
+      "pergunta": "Qual sentido nos permite identificar cheiros?",
+      "opcoes": ["Visão", "Olfato", "Paladar", "Tato"],
+      "resposta": "Olfato"
+    }
+  ],
+  "medio": [
+    {
+      "pergunta": "O que é energia renovável?",
+      "opcoes": ["Energia do petróleo", "Energia solar", "Energia nuclear", "Carvão"],
+      "resposta": "Energia solar"
+    },
+    {
+      "pergunta": "Qual é a função da fotossíntese?",
+      "opcoes": ["Produzir energia para os animais", "Produzir alimento para as plantas", "Produzir água", "Produzir oxigênio apenas"],
+      "resposta": "Produzir alimento para as plantas"
+    },
+    {
+      "pergunta": "Qual camada da Terra é líquida?",
+      "opcoes": ["Crosta", "Manto", "Núcleo externo", "Núcleo interno"],
+      "resposta": "Núcleo externo"
+    }
+  ],
+  "dificil": [
+    {
+      "pergunta": "O que acontece com a pressão de um gás quando a temperatura aumenta, mantendo o volume constante?",
+      "opcoes": ["Diminui", "Permanece igual", "Aumenta", "Zera"],
+      "resposta": "Aumenta"
+    },
+    {
+      "pergunta": "Qual elemento é mais abundante na crosta terrestre?",
+      "opcoes": ["Ouro", "Oxigênio", "Ferro", "Silício"],
+      "resposta": "Oxigênio"
+    },
+    {
+      "pergunta": "O que causa o efeito estufa?",
+      "opcoes": ["Excesso de dióxido de carbono na atmosfera", "Luz solar direta", "Chuvas ácidas", "Ventos fortes"],
+      "resposta": "Excesso de dióxido de carbono na atmosfera"
+    }
+  ]
+},
+
+"historia": {
+  "facil": [
+    {
+      "pergunta": "Quem foi o primeiro imperador do Brasil?",
+      "opcoes": ["Dom Pedro I", "Dom Pedro II", "Getúlio Vargas", "Juscelino Kubitschek"],
+      "resposta": "Dom Pedro I"
+    },
+    {
+      "pergunta": "Em que ano aconteceu a Proclamação da República no Brasil?",
+      "opcoes": ["1822", "1889", "1500", "1808"],
+      "resposta": "1889"
+    },
+    {
+      "pergunta": "Qual foi o período da Idade Média?",
+      "opcoes": ["476 a 1453", "1492 a 1789", "1789 a 1914", "1453 a 1789"],
+      "resposta": "476 a 1453"
+    }
+  ],
+  "medio": [
+    {
+      "pergunta": "O que foi a Revolução Industrial?",
+      "opcoes": [
+        "Mudança na produção agrícola",
+        "Transformação na produção com máquinas e fábricas",
+        "Fim das monarquias europeias",
+        "Início da colonização da América"
+      ],
+      "resposta": "Transformação na produção com máquinas e fábricas"
+    },
+    {
+      "pergunta": "Quem foi líder da independência dos Estados Unidos?",
+      "opcoes": ["George Washington", "Abraham Lincoln", "Thomas Jefferson", "Benjamin Franklin"],
+      "resposta": "George Washington"
+    },
+    {
+      "pergunta": "Qual foi a principal consequência da Revolução Francesa?",
+      "opcoes": [
+        "Fim do absolutismo e avanço dos direitos civis",
+        "Colonização da América",
+        "Industrialização da França",
+        "Fim da escravidão no mundo"
+      ],
+      "resposta": "Fim do absolutismo e avanço dos direitos civis"
+    }
+  ],
+  "dificil": [
+    {
+      "pergunta": "O que foi a Guerra Fria?",
+      "opcoes": [
+        "Conflito direto entre Estados Unidos e União Soviética",
+        "Período de tensão ideológica e política entre EUA e URSS",
+        "Guerra entre países da América do Sul",
+        "Invasão da União Soviética à Alemanha"
+      ],
+      "resposta": "Período de tensão ideológica e política entre EUA e URSS"
+    },
+    {
+      "pergunta": "Qual foi a importância da Revolução Industrial para a urbanização?",
+      "opcoes": [
+        "Reduziu o número de cidades",
+        "Acelerou a migração do campo para as cidades",
+        "Manteve a população rural constante",
+        "Eliminou a mão de obra artesanal"
+      ],
+      "resposta": "Acelerou a migração do campo para as cidades"
+    },
+    {
+      "pergunta": "O Tratado de Tordesilhas dividiu o território brasileiro entre:",
+      "opcoes": [
+        "Portugal e Espanha",
+        "Portugal e França",
+        "Espanha e Inglaterra",
+        "França e Inglaterra"
+      ],
+      "resposta": "Portugal e Espanha"
+    }
+  ]
+},
+
+"geografia": {
+  "facil": [
+    {
+      "pergunta": "Qual é o maior país do mundo em extensão territorial?",
+      "opcoes": ["Brasil", "Canadá", "Rússia", "China"],
+      "resposta": "Rússia"
+    },
+    {
+      "pergunta": "Qual é o continente em que se encontra o Brasil?",
+      "opcoes": ["África", "América do Sul", "América do Norte", "Europa"],
+      "resposta": "América do Sul"
+    },
+    {
+      "pergunta": "O que é latitude?",
+      "opcoes": ["Distância em relação ao Equador", "Distância em relação ao Meridiano de Greenwich", "Altura do relevo", "Profundidade dos oceanos"],
+      "resposta": "Distância em relação ao Equador"
+    }
+  ],
+  "medio": [
+    {
+      "pergunta": "O que caracteriza o clima tropical?",
+      "opcoes": [
+        "Temperaturas baixas e neve",
+        "Estações bem definidas com inverno rigoroso",
+        "Temperaturas elevadas e chuvas concentradas no verão",
+        "Clima árido com pouca chuva"
+      ],
+      "resposta": "Temperaturas elevadas e chuvas concentradas no verão"
+    },
+    {
+      "pergunta": "Qual é o principal fator de relevo que influencia o clima?",
+      "opcoes": [
+        "Latitude", 
+        "Altura (altitude)", 
+        "População", 
+        "Rios"
+      ],
+      "resposta": "Altura (altitude)"
+    },
+    {
+      "pergunta": "O que é urbanização?",
+      "opcoes": [
+        "Expansão de áreas agrícolas",
+        "Crescimento das cidades e migração para elas",
+        "Desmatamento da floresta",
+        "Construção de represas"
+      ],
+      "resposta": "Crescimento das cidades e migração para elas"
+    }
+  ],
+  "dificil": [
+    {
+      "pergunta": "O que é densidade demográfica?",
+      "opcoes": [
+        "Número de cidades em um país",
+        "Número de habitantes por área", 
+        "Número de empregos por região", 
+        "Altura média do relevo"
+      ],
+      "resposta": "Número de habitantes por área"
+    },
+    {
+      "pergunta": "Qual é a principal causa da desertificação?",
+      "opcoes": [
+        "Poluição dos rios", 
+        "Desmatamento e práticas agrícolas inadequadas", 
+        "Urbanização", 
+        "Erosão costeira"
+      ],
+      "resposta": "Desmatamento e práticas agrícolas inadequadas"
+    },
+    {
+      "pergunta": "O que é um bioma?",
+      "opcoes": [
+        "Área de mesmo clima e vegetação", 
+        "Rio principal de uma região", 
+        "Cidade histórica", 
+        "País com economia semelhante"
+      ],
+      "resposta": "Área de mesmo clima e vegetação"
+    }
+  ]
+},
+
+  "geometria": {
+    "facil": [
+      {
+        "pergunta": "Qual é a soma dos ângulos internos de um triângulo?",
+        "opcoes": ["90°", "180°", "270°", "360°"],
+        "resposta": "180°"
+      },
+      {
+        "pergunta": "Quantos lados tem um hexágono?",
+        "opcoes": ["5", "6", "7", "8"],
+        "resposta": "6"
+      },
+      {
+        "pergunta": "Qual é a fórmula da área de um retângulo?",
+        "opcoes": ["base + altura", "base x altura", "2 x (base + altura)", "lado²"],
+        "resposta": "base x altura"
+      }
+    ],
+    "medio": [
+      {
+        "pergunta": "Qual é a diagonal de um quadrado de lado 4 cm? (Use √2 ≈ 1,41)",
+        "opcoes": ["4 cm", "5,64 cm", "6 cm", "8 cm"],
+        "resposta": "5,64 cm"
+      },
+      {
+        "pergunta": "Um triângulo retângulo tem catetos de 6 cm e 8 cm. Qual é o comprimento da hipotenusa?",
+        "opcoes": ["8 cm", "9 cm", "10 cm", "12 cm"],
+        "resposta": "10 cm"
+      },
+      {
+        "pergunta": "Qual é a área de um círculo de raio 7 cm? (Use π ≈ 3,14)",
+        "opcoes": ["49 cm²", "154 cm²", "100 cm²", "200 cm²"],
+        "resposta": "154 cm²"
+      }
+    ],
+    "dificil": [
+      {
+        "pergunta": "Um prisma reto de base quadrada tem aresta da base 5 cm e altura 10 cm. Qual é o volume?",
+        "opcoes": ["100 cm³", "150 cm³", "250 cm³", "300 cm³"],
+        "resposta": "250 cm³"
+      },
+      {
+        "pergunta": "Um cilindro tem raio de 3 cm e altura de 10 cm. Qual é o volume? (Use π ≈ 3,14)",
+        "opcoes": ["282,6 cm³", "314 cm³", "565,2 cm³", "942 cm³"],
+        "resposta": "282,6 cm³"
+      },
+      {
+        "pergunta": "Em um triângulo equilátero de lado 12 cm, qual é a altura? (Use √3 ≈ 1,73)",
+        "opcoes": ["6 cm", "8,66 cm", "10,39 cm", "12 cm"],
+        "resposta": "10,39 cm"
+      }
+    ]
+  },
+
+
+  "artes": {
+    "facil": [
+      {
+        "pergunta": "Quem pintou a famosa obra 'Mona Lisa'?",
+        "opcoes": ["Leonardo da Vinci", "Pablo Picasso", "Vincent van Gogh", "Michelangelo"],
+        "resposta": "Leonardo da Vinci"
+      },
+      {
+        "pergunta": "Qual é a cor resultante da mistura entre azul e amarelo?",
+        "opcoes": ["Verde", "Laranja", "Roxo", "Marrom"],
+        "resposta": "Verde"
+      },
+      {
+        "pergunta": "O que é um retrato?",
+        "opcoes": ["Pintura de paisagem", "Representação de uma pessoa", "Escultura em mármore", "Obra abstrata"],
+        "resposta": "Representação de uma pessoa"
+      }
+    ],
+    "medio": [
+      {
+        "pergunta": "O movimento artístico conhecido como Cubismo foi iniciado por qual pintor?",
+        "opcoes": ["Claude Monet", "Pablo Picasso", "Salvador Dalí", "Tarsila do Amaral"],
+        "resposta": "Pablo Picasso"
+      },
+      {
+        "pergunta": "Qual é o nome da técnica que utiliza pequenos pontos para formar uma imagem?",
+        "opcoes": ["Pontilhismo", "Expressionismo", "Futurismo", "Abstracionismo"],
+        "resposta": "Pontilhismo"
+      },
+      {
+        "pergunta": "O modernismo no Brasil teve início em qual evento histórico?",
+        "opcoes": ["Semana de Arte Moderna de 1922", "Inconfidência Mineira", "Ditadura Militar", "Independência do Brasil"],
+        "resposta": "Semana de Arte Moderna de 1922"
+      }
+    ],
+    "dificil": [
+      {
+        "pergunta": "Quem pintou a obra 'O Grito'?",
+        "opcoes": ["Edvard Munch", "Vincent van Gogh", "Claude Monet", "Rembrandt"],
+        "resposta": "Edvard Munch"
+      },
+      {
+        "pergunta": "A técnica de pintura 'afresco' consiste em aplicar pigmentos sobre qual superfície?",
+        "opcoes": ["Madeira seca", "Tecido de algodão", "Gesso úmido", "Papel"],
+        "resposta": "Gesso úmido"
+      },
+      {
+        "pergunta": "Qual artista brasileira é considerada um dos maiores nomes do movimento antropofágico?",
+        "opcoes": ["Tarsila do Amaral", "Anita Malfatti", "Lygia Clark", "Beatriz Milhazes"],
+        "resposta": "Tarsila do Amaral"
+      }
+    ]
+  }
+}
+
+
+
+
+
+
+
