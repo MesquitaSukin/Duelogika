@@ -189,8 +189,8 @@ button:hover {
     max-width: 50%;
   }
   .profissoes button {
-    font-size: 20px;
-    padding: 20px;
+    font-size: 15px;
+    padding: 15px;
     width: 100%;
   }
   .profissoes {
@@ -202,8 +202,8 @@ button:hover {
     margin: 10px;
   }
   .opcoes button {
-    font-size: 15px;
-    padding: 15px;
+    font-size: 20px;
+    padding: 20px;
   }
   .footer p {
     font-size: 20px;
@@ -213,4 +213,5 @@ button:hover {
   }
 
 }
+
 
