@@ -161,54 +161,55 @@ button:hover {
 /* RESPONSIVIDADE */
 @media screen and (max-width: 768px) {
  h1 {
-   font-size: 4em;
+   font-size: 2.5em;
  }
  p {
-   font-size: 35px;
+   font-size: 20px;
  }
  .container {
    border: 10px solid #EB4277;
+   margin: 10px;
+   padding: 10px 1px;
  }
  .texto {
    font-size: 16px;
  }
   .descricao {
     flex-direction: column;
-    
   }
   .descricao .texto {
     font-size: 16px;
     padding: 15px;
-    line-height: 2.7em;
     text-align: center;
-    padding: 50px;
+    padding: 20px;
+    margin: 10px;
     border: 10px solid #EB4277;
   }
   .descricao img {
     max-width: 50%;
   }
   .profissoes button {
-    font-size: 30px;
+    font-size: 20px;
     padding: 20px;
+    width: 100%;
   }
   .profissoes {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
   .quiz {
     border: 10px solid #0E1B4B;
-    font-size: 40px;
-    margin: 65px;
+    font-size: 20px;
+    margin: 10px;
   }
   .opcoes button {
-    font-size: 30px;
-    letter-spacing: 3px;
+    font-size: 20px;
     padding: 20px;
   }
   .footer p {
-    font-size: 30px;
+    font-size: 20px;
   }
   .resultado {
-    font-size: 40px;
+    font-size: 25px;
   }
 
 }
