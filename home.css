@@ -194,7 +194,7 @@ button:hover {
     width: 100%;
   }
   .profissoes {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   }
   .quiz {
     border: 10px solid #0E1B4B;
@@ -202,8 +202,8 @@ button:hover {
     margin: 10px;
   }
   .opcoes button {
-    font-size: 20px;
-    padding: 20px;
+    font-size: 15px;
+    padding: 15px;
   }
   .footer p {
     font-size: 20px;
@@ -213,3 +213,4 @@ button:hover {
   }
 
 }
+
