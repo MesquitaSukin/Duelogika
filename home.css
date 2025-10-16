@@ -98,6 +98,7 @@ button:hover {
   width: 80%;
   border-radius: 12px;
   font-size: 15px;
+  font-weight: 200;
 }
 
 .resultado {
@@ -140,6 +141,7 @@ button:hover {
   background: #f8f8f8;
   text-align: left;
   line-height: 1.5em;
+  font-weight: 600;
 }
 
 /* --- FOOTER --- */
@@ -158,17 +160,55 @@ button:hover {
 
 /* RESPONSIVIDADE */
 @media screen and (max-width: 768px) {
+ h1 {
+   font-size: 4em;
+ }
+ p {
+   font-size: 35px;
+ }
+ .container {
+   border: 10px solid #EB4277;
+ }
+ .texto {
+   font-size: 16px;
+ }
   .descricao {
     flex-direction: column;
-    text-align: center;
+    
   }
-
-  .descricao img {
-    max-width: 200px;
-  }
-
-  .texto {
-    text-align: center;
+  .descricao .texto {
     font-size: 16px;
+    padding: 15px;
+    line-height: 2.7em;
+    text-align: center;
+    padding: 50px;
+    border: 10px solid #EB4277;
   }
+  .descricao img {
+    max-width: 50%;
+  }
+  .profissoes button {
+    font-size: 30px;
+    padding: 20px;
+  }
+  .profissoes {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  .quiz {
+    border: 10px solid #0E1B4B;
+    font-size: 40px;
+    margin: 65px;
+  }
+  .opcoes button {
+    font-size: 30px;
+    letter-spacing: 3px;
+    padding: 20px;
+  }
+  .footer p {
+    font-size: 30px;
+  }
+  .resultado {
+    font-size: 40px;
+  }
+
 }
