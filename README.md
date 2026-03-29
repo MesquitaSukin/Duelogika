@@ -33,10 +33,9 @@ O projeto combina lógica de jogo com perguntas relacionadas a tecnologia, incen
 ## 🧠 O que aprendi
 
 - Aplicação prática de lógica de programação  
-- Manipulação de interações com JavaScript  
-- Estruturação de um projeto web do início ao fim  
+- Manipulação de interações com JavaScript
+- Manipulação de dados com JSON
 - Desenvolvimento de um sistema interativo  
-- Organização de código para projetos maiores  
 
 ---
 
